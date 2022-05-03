@@ -1,0 +1,64 @@
+* {
+  font-family: 'Poppins';
+}
+
+.notification {
+  display: inline-flex;
+}
+
+.notification-icon {
+  margin: 18px -10px 0 0;
+}
+
+.ellipse {
+  margin: 15px 40px 0 0;
+  z-index: 1;
+}
+
+.user {
+  margin-right: 45px;
+}
+
+.name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #192A3E;
+  margin-top: 10px;
+}
+
+.role {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  color: #90A0B7;
+  margin-top: -8px;
+}
+
+.user-icon {
+  margin: 8px;
+}
+
+.active-user {
+  margin-right: 5px;
+}
+
+.active-profile {
+  margin: -56px 0 0 63px;
+}
+
+.active-icon {
+  height: 41px;
+}
+
+
+
+
+
+
+
+
+

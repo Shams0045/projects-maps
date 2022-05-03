@@ -1,0 +1,32 @@
+* {
+  font-family: 'Poppins';
+}
+
+*:focus {
+  outline: none;
+}
+
+.search {
+  height: 18px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  color: #90A0B7;
+  border: none;
+  cursor: pointer;
+}
+
+.search-icon {
+  margin: 25px 0 0 45px;
+}
+
+.search-input {
+  margin: 21px 0 0 15px;
+}
+
+.search-content {
+  height: 60px;
+  display: inline-flex;
+}

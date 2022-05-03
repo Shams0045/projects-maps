@@ -1,0 +1,23 @@
+<div class="notification">
+  <div class="active-user">
+    <img class="user-icon" src="assets/header/user.png" alt="">
+    <img class="user-icon" src="assets/header/user.png" alt="">
+    <div class="active-profile">
+      <img class="active-icon" src="assets/header/active_profile.png" alt="">
+    </div>
+  </div>
+  <div class="user">
+    <div class="name">
+      <p>{{name}}</p>
+    </div>
+    <div class="role">
+      <p> {{ (role.length > 16) ? (role | slice:0:16) + '...' : (role) }}</p>
+    </div>
+  </div>
+  <div class="notification-icon">
+    <img src="assets/header/notification.png" alt="">
+  </div>
+  <div *ngIf="ellipse" class="ellipse">
+    <img src="assets/header/ellipse.png" alt="">
+  </div>
+</div>

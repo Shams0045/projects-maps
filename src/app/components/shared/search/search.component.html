@@ -1,0 +1,13 @@
+<div class="search-content">
+  <div class="search-icon">
+    <img src="assets/header/search.png" alt="">
+  </div>
+  <div class="search-input">
+    <input
+      [(ngModel)]="name"
+      (ngModelChange)="log($event)"
+      placeholder="Search for project"
+      class="search">
+  </div>
+</div>
+

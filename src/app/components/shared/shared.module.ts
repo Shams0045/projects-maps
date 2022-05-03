@@ -7,13 +7,15 @@ import {MatListModule} from "@angular/material/list";
 import {RouterModule} from "@angular/router";
 import {MatIconModule} from "@angular/material/icon";
 import {FormsModule} from "@angular/forms";
-
-
+import {SearchComponent} from "./search/search.component";
+import { NotificationComponent } from './notification/notification.component';
 
 @NgModule({
   declarations: [
     HeaderComponent,
-    SidebarComponent
+    SidebarComponent,
+    SearchComponent,
+    NotificationComponent
   ],
   imports: [
     CommonModule,
@@ -25,7 +27,8 @@ import {FormsModule} from "@angular/forms";
   ],
   exports: [
     HeaderComponent,
-    SidebarComponent
+    SidebarComponent,
+    SearchComponent
   ]
 })
 export class SharedModule { }
