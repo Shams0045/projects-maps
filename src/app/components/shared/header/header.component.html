@@ -1,1 +1,15 @@
-<p>header works!</p>
+<div class="header">
+  <div id="container">
+    <div class="search char">
+      <div class="search-icon">
+        <img src="assets/header/search.png" alt="">
+      </div>
+      <div class="search-input">
+        <input [(ngModel)]="name" (ngModelChange)="log($event)">
+      </div>
+    </div>
+    <div class="char float-right">
+      <img class="dots" src="assets/img/3dots.png" alt="">
+    </div>
+  </div>
+</div>

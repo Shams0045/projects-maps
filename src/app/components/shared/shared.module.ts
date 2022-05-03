@@ -6,6 +6,7 @@ import {MatDividerModule} from "@angular/material/divider";
 import {MatListModule} from "@angular/material/list";
 import {RouterModule} from "@angular/router";
 import {MatIconModule} from "@angular/material/icon";
+import {FormsModule} from "@angular/forms";
 
 
 
@@ -19,7 +20,8 @@ import {MatIconModule} from "@angular/material/icon";
     MatDividerModule,
     MatListModule,
     RouterModule,
-    MatIconModule
+    MatIconModule,
+    FormsModule
   ],
   exports: [
     HeaderComponent,
