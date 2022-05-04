@@ -6,6 +6,7 @@ import {AppComponent} from './app.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {DefaultModule} from "./components/default/default.module";
 import {FormsModule} from "@angular/forms";
+import {HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import {FormsModule} from "@angular/forms";
     BrowserAnimationsModule,
     DefaultModule,
     FormsModule,
+    HttpClientModule
   ],
   providers: [],
   exports: [],
